@@ -4,7 +4,8 @@
   "description": "Ethereum Node Proxy",
   "main": "main.js",
   "dependencies": {
-    "mysql": "^2.15.0"
+    "mysql": "^2.15.0",
+    "web3-eth-accounts": "1.0.0-beta.28"
   },
   "devDependencies": {},
   "scripts": {
@@ -14,5 +15,9 @@
     "ethereum"
   ],
   "author": "Yuriy Kvit",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YuriyKvit/enp"
+  }
 }
