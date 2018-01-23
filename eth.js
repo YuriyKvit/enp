@@ -1,5 +1,6 @@
-var Web3EthAccounts = require('web3-eth-accounts');
+var Accounts = require('web3-eth-accounts');
 
-var account = new Web3EthAccounts();
-var cred = account.create();
+var accounts = new Accounts();
+
+var cred = accounts.create();
 console.log(cred);
