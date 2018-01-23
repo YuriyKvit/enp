@@ -5,7 +5,11 @@
   "main": "main.js",
   "dependencies": {
     "mysql": "^2.15.0",
-    "web3-eth-accounts": "1.0.0-beta.28"
+    "web3-eth-accounts": "^1.0.0-beta.28",
+    "coinkey": "^2.0.0",
+    "bitcoinjs-lib": "^3.3.2",
+    "bitcoincashjs": "^0.1.10",
+    "bitcoingoldjs": "^3.4.3"
   },
   "devDependencies": {},
   "scripts": {
